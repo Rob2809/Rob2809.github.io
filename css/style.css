@@ -557,7 +557,7 @@ footer {
 }
 
 
-/*Media Query Css 1400px */
+/*Media Query Css 1440px */
 @media (max-width: 1440px) {
 
 
@@ -595,6 +595,11 @@ footer {
 }
 /*End of Media Query 1400px */
 
+@media (max-width: 1280px) {
+	.carousel-inner > .item > img { 
+	width:100%; height:240px; 
+	}
+}
 
 /*Media Query Css 1200px */
 @media (max-width: 1200px) {
