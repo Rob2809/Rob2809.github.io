@@ -546,11 +546,9 @@ footer {
 
 
 @media (max-width: 1600px) {
-
-
 .AboutLeftSection {
-	font-size:1.2em;
-}
+	font-size:1.4em;
+	}
 
 #AboutMainContainer {
 	margin-top:80px;
