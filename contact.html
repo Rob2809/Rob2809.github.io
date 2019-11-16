@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Branimirs PC Repair</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Latest compiled and minified bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+  <!-- Css stylesheet -->
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed|Orbitron&display=swap" rel="stylesheet">
+  
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+<style type="text/css">
+body {
+	 background-image: url(images/contact_bkgd.jpg); <!-- Body background image source: by Pixabay from Pexels --> 
+     }
+</style>
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container-fluid">
+	<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Brans Technical Repairs</a>
+		</div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="topFixedNavbar1">
+			<ul class="nav navbar-nav navlist">	
+				<li class="navlistitem"><a href="index.html">Home</a></li>
+				<li class="navlistitem"><a href="about.html">About</a></li>
+				<li class="navlistitem"><a href="services.html">Services</a></li>
+				<li class="navlistitem"><a href="sales.html">Sales</a></li>
+				<li class="navlistitem active"><a href="contact.html">Contact</a></li>
+				<li class="navlistitem"><a href="faqs.html">FAQs</a></li>
+				<li class="navlistitem"><a href="info.html">Info</a></li>
+			</ul>
+		</div>
+	</div>
+	</nav> 
+	<div class="container-fluid" id="ContactMainContainer">
+		<header>
+			<h1>Contact me through the email form provided!</h1>
+		</header>
+		<div class="row">
+
+			<div class="col-sm-12" id="ContactMainColumn">
+			<section class="ContactMainSection">
+			<h2>Contact Me!</h2>
+			<form action = "http://Rob2809.github.io/formmail.php" id="form1" name="form1" method="post">
+				<label for="name" class="labels">Name:</label>
+				<br>
+				<input name="name" type="text" required class="formStyle" id="name" form="form1">
+				<br>
+				<label for="email">Email:</label>
+				<br>
+				<input name="email" type="email" required class="formStyle" id="email" form="form1">
+				<br>
+				<label for="comments">Your Question:</label>
+				<br>
+				<textarea name="comments" rows="6" cols="10" required class="formStyle" id="comments" form="form1"></textarea>
+				<br>
+				<input type ="submit" name="submit" class="formStyle" id="submit" value="Submit" form="form1">
+				<br>
+			</form>
+				<h2>You can also message me through Whatsapp or follow me through Facebook, Instagram or my Twitch account</h2>
+				<div class="icon-bar" id="contactBar">
+					<a href="https://api.whatsapp.com/send?phone=+353894340428"><i class="fa fa-whatsapp"></i></a> 
+					<a href="https://facebook.com"><i class="fa fa-facebook"></i></a> 
+					<a href="https://instagram.com"><i class="fa fa-instagram"></i></a>
+					<a href="https://twitch.com"><i class="fa fa-twitch"></i></a> 
+				</div>
+			</section>
+			</div>
+		</div>
+	</div>
+			
+	<div class="container" id="FooterContainer">
+		<footer>
+		Copyright 2019
+		</footer>     
+	</div>
+</body>
+</html>

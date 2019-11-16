@@ -1,0 +1,773 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*Global body Css */
+body {
+    background-image: url(../images/index_bkgd.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Barlow Condensed', sans-serif;
+	height:100%;
+}
+/*End of Global body CSS */
+
+
+
+
+/* Global Navbar Css */
+nav {
+	margin-top:1%;
+	margin-left:1%;
+	width:98%;
+	padding:0px;
+}
+
+.navlist {
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+	font-family: 'Orbitron', sans-serif;
+	font-size:1em;
+}
+
+.navlistitem {
+	text-align:center;
+	color:black;
+	text-shadow: 1px 1px 1px white;
+}
+.navlistitem a {
+	text-decoration:none;
+	display:block;
+	padding-top:14px;
+	padding-left:16px;
+	padding-right:16px;
+	padding-bottom:16px;
+}
+
+.navlistitem a:hover {
+	color:black;
+	background-color:#1E90FF;
+}
+
+.container-fluid .navbar-header .navbar-brand {
+	font-family: 'Orbitron', sans-serif;
+	color: black;
+	font-weight: 800;
+}
+ /* End of Global Navbar Css */
+
+ 
+ 
+ 
+
+/* Global Headings Css */
+h1 {
+	font-family: 'Orbitron', sans-serif;
+	font-size:2.2em;
+	text-align:center;
+	height:1.8em;
+}
+
+h2 {
+	font-family: 'Orbitron', sans-serif;
+	font-size:1.5em;
+	text-align:center;
+	height:1.8em;
+	color:black;
+	text-shadow: 1px 1px 1px white;
+}
+
+h3 {
+	font-family: 'Orbitron', sans-serif;
+	font-size:1em;
+	text-align:center;
+	height:1.8em;
+	color:black;
+	text-shadow: 1px 1px 1px white;
+}
+/*End of Global Headings Css */
+
+
+
+
+
+/*Global Footer Css */
+footer {
+	text-align:center;
+	clear:both;
+	color:black;
+	text-shadow: 1px 1px 1px white;
+}
+
+#FooterContainer {
+	float:left;
+	margin-top:2%;
+	margin-left:1%;
+	padding-top:12px;
+	width:98%;
+	color:black;
+	text-shadow: 1px 1px 1px white;
+	font-size:1em;
+	background: rgba(255, 255, 255, 0.9);
+	height:40px;
+	font-family: 'Orbitron', sans-serif;
+	clear: both;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+}
+/*End of Global Footer Css */
+
+
+
+
+/*Global Panel Css */
+.panel-default {
+	background: rgba(0, 0, 0, 0.6);
+	text-align:center;
+	margin-top:25px;
+}
+
+.panel-title {
+	font-size:1em;
+	font-family: 'Orbitron', sans-serif;
+	color:white;
+}
+
+.panel-default .panel-heading {
+	background-color:rgba(80, 200, 250, 0.4);
+}
+/*End of Global Panel Css */
+
+
+
+
+/*Index Page Css */
+#IndexMainContainer {
+	float:left;
+	margin-top:120px;
+	margin-left:10%;
+	margin-bottom:2%;
+	width:80%;
+	border-radius: 15px;
+	color:black;
+	text-shadow: 1px 1px 1px white;
+	font-size:1.5em;
+}
+
+.IndexMainSection {
+	float:left;
+	padding:30px;
+	text-align: justify;
+    text-justify: inter-word;
+	width:90%;
+	text-shadow: 1px 1px 1px white;
+	color:black;
+	margin-top:1%;
+	margin-left:5%;
+	background: rgba(255, 255, 240, 0.6);
+	border-radius:15px;
+	border: 1px solid black;
+}
+
+.IndexMainSectionParagraph {
+	font-size:1.2em;
+	font-weight:400;
+}
+
+.IndexBottomSection {
+	float:left;
+	padding:15px;
+	text-align: justify;
+    text-justify: inter-word;
+	width:90%;
+	text-shadow: 1px 1px 1px white;
+	color:black;
+	margin-top:1%;
+	margin-left:5%;
+	border-radius:15px;
+}
+/*End of Index Page Css */
+
+
+
+
+
+/*About Page Css */
+#AboutMainContainer {
+	float:left;
+	margin-top:160px;
+	margin-left:1%;
+	margin-bottom:250px;
+	width:98%;
+	border-radius: 15px;
+	color:black;
+	text-shadow: 1px 1px 1px white;
+	font-size:1.5em;
+	text-align:center;
+}
+
+#AboutLeftColumn {
+	border-radius:15px;
+	padding:0px 15px 15px 15px;
+}
+
+.AboutLeftSection {
+	text-align: justify;
+    text-justify: inter-word;
+	width:90%;
+	text-shadow: 1px 1px 1px white;
+	color:black;
+	margin-left:10%;
+	margin-top:15px;
+	background: rgba(255, 255, 240, 0.6);
+	border-radius:15px;
+	border: 1px solid black;
+	padding:30px;
+	font-size:1.2em;
+}
+
+#AboutRightColumn {
+	padding:0px 15px 15px 15px;
+}
+
+.AboutRightSection {
+	width:80%;
+	text-shadow: 1px 1px 1px white;
+	color:black;
+	margin-left:10%;
+	margin-bottom:5%;
+	margin-top:15px;
+	border-radius:15px 15px 15px 15px;
+	border: 1px solid black;
+	padding: 15px;
+	text-align:center;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.carousel-inner > .item > img { 
+	width:100%; height:400px; 
+	}
+	
+/*End of About Page Css */
+
+
+
+
+
+/*Services Page Css */
+#ServicesMainContainer {
+	float:left;
+	margin-top:250px;
+	margin-left:1%;
+	margin-bottom:450px;
+	width:98%;
+	border-radius: 15px;
+	color:black;
+	text-shadow: 1px 1px 1px white;
+	font-size:1.5em;
+	text-align:center;
+}
+
+#ServicesLeftColumn {
+	padding:15px;
+}
+
+.ServicesLeftSection {
+	width: 100%;
+	margin-top:1%;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius:15px;
+	border: 1px solid white;
+	padding:15px;
+	font-size:1.1em;
+}
+
+#ServicesMiddleColumn {
+	padding:15px;
+}
+
+.ServicesMiddleSection {
+	width: 100%;
+	margin-top:1%;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius:15px;
+	border: 1px solid white;
+	padding:15px;
+	font-size:1.1em;
+}
+
+#ServicesRightColumn {
+	padding:15px;
+}
+
+.ServicesRightSection {
+	width: 100%;
+	margin-top:1%;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius:15px;
+	border: 1px solid white;
+	padding:15px;
+	font-size:1.1em;
+}
+/*End of Services Page Css */
+
+
+
+
+
+/*Sales Page Css */
+#SalesMainContainer {
+	float:left;
+	margin-top:9%;
+	margin-left:1%;
+	margin-bottom:100px;
+	margin-top:120px;
+	width:98%;
+	border-radius: 15px;
+	color:black;
+	text-shadow: 1px 1px 1px white;
+	font-size:1.3em;
+}
+
+.SalesMainSection {
+	float:left;
+	padding:15px;
+	text-align: justify;
+    text-justify: inter-word;
+	width:80%;
+	text-shadow: 1px 1px 1px black;
+	color:white;
+	margin-left:10%;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius:15px;
+	border: 1px solid white;
+}
+/*End of Sales Page Css */
+
+
+
+
+
+/*Contact Page Css */
+#ContactMainContainer {
+	float:left;
+	margin-top:6%;
+	margin-left:1%;
+	margin-bottom:5%;
+	width:98%;
+	border-radius: 15px;
+	color:black;
+	text-shadow: 1px 1px 1px white;
+}
+
+#ContactMainColumn {
+	padding:0px 15px 15px 15px;
+}
+
+.ContactMainSection {
+	text-align: justify;
+    text-justify: inter-word;
+	width:80%;
+	text-shadow: 1px 1px 1px white;
+	color:black;
+	margin-left:10%;
+	background: rgba(255, 255, 255, 0.6);
+	border-radius:15px;
+	border: 1px solid black;
+	padding:15px;
+	font-size:1.1em;
+}
+
+.formStyle{
+	width:100%;
+	margin-bottom:20px;
+}
+
+#contactBar {
+  width: 80%;
+  background: rgba(0, 0, 0, 0.6);
+  overflow: auto;
+  border-radius:15px;
+  border: 1px solid white;
+  margin-left:10%;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.icon-bar a {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+/*End of Contact Page Css */
+
+
+
+
+
+/*FAQs Page Css */
+#FaqsMainContainer {
+	float:left;
+	margin-top:90px;
+	margin-left:1%;
+	margin-bottom:300px;
+	margin-top:80px;
+	width:98%;
+	border-radius: 15px;
+	color:black;
+	text-shadow: 1px 1px 1px white;
+	font-size:1.5em;
+}
+
+.FaqsMainSection {
+	float:left;
+	padding:15px;
+	text-align: justify;
+    text-justify: inter-word;
+	width:80%;
+	text-shadow: 1px 1px 1px black;
+	color:white;
+	margin-left:10%;
+	margin-top:60px;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius:15px;
+	border: 1px solid white;
+}
+/*End of FAQs Page Css */
+
+
+
+
+
+/*Info Page Css */
+#infoMainContainer {
+	float:left;
+	margin-top:120px;
+	margin-left:5%;
+	margin-bottom:250px;
+	width:90%;
+	border-radius: 15px;
+	border: 1px solid white;
+	color:black;
+	text-shadow: 1px 1px 1px white;
+	font-size:1.5em;
+	text-align:center;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+#infoLeftColumn {
+	border-radius:15px;
+	padding:0px 15px 15px 15px;
+}
+
+.infoLeftSection {
+	text-align: justify;
+    text-justify: inter-word;
+	width:90%;
+	text-shadow: 1px 1px 1px white;
+	color:black;
+	margin-left:5%;
+	margin-bottom:5%;
+	background: rgba(255, 255, 255, 0.7);
+	border-radius:15px;
+	border: 1px solid black;
+	padding:15px;
+	font-size:1.1em;
+}
+
+#infoRightColumn {
+	padding:0px 15px 15px 15px;
+}
+
+.infoRightSection {
+	text-align: justify;
+    text-justify: inter-word;
+	width:90%;
+	text-shadow: 1px 1px 1px white;
+	color:black;
+	margin-left:5%;
+	background: rgba(255, 255, 255, 0.7);
+	border-radius:15px;
+	border: 1px solid black;
+	padding:15px;
+	font-size:1.1em;
+}
+/*End of info Page Css */
+
+
+
+/*Thank You Page Css */
+#ThankYouMainContainer {
+	float:left;
+	margin-top:6%;
+	margin-left:1%;
+	margin-bottom:5%;
+	width:98%;
+	border-radius: 15px;
+	color:black;
+	text-shadow: 1px 1px 1px white;
+}
+
+#ThankYouMainColumn {
+	padding:0px 15px 15px 15px;
+}
+
+.ThankYouMainSection {
+	text-align: justify;
+    text-justify: inter-word;
+	width:80%;
+	text-shadow: 1px 1px 1px white;
+	color:black;
+	margin-left:10%;
+	margin-top:200px;
+	background: rgba(255, 255, 255, 0.6);
+	border-radius:15px;
+	border: 1px solid black;
+	padding:15px;
+	font-size:1.5em;
+}
+
+/*End of Thank You Page Css */
+
+
+
+/*Media Query Css 1400px */
+@media (max-width: 1400px) {
+
+
+.AboutLeftSection {
+	margin-top:15px;
+	font-size:0.9em;
+}
+
+.carousel-inner > .item > img { 
+	width:100%; height:280px; 
+	}
+
+#contactBar {
+  margin-top:40px;
+	}
+	
+.ContactMainSection {
+	margin-top:40px;	
+	}
+
+#faqsH1 {
+	font-size:1.3em;
+}
+
+#infoMainContainer{
+	margin-bottom:250px;
+}
+.infoLeftSection {
+	margin-top:20px;
+	}
+
+.infoRightSection {
+	margin-top:20px;
+	}
+}
+/*End of Media Query 1400px */
+
+
+/*Media Query Css 1200px */
+@media (max-width: 1200px) {
+.AboutLeftSection {
+	font-size:0.8em;
+}
+
+}
+
+@media (max-width: 1000px) {
+#AboutMainContainer {
+	margin-top:120px;
+    }
+.AboutLeftSection {
+	margin-left:5%;
+	}
+
+.AboutRightSection {
+	margin-left:5%;
+	width:90%;
+	}
+}
+/*End of Media Query Css 1200px */
+
+
+/*Media Query Css 800px */
+@media (max-width: 800px) {
+
+#AboutMainContainer {
+	margin-top:100px;
+	font-size:1.1em;
+    }
+	
+.AboutLeftSection {
+	margin-left:5%;
+	font-size:1.1em;
+}
+
+.AboutRightSection {
+	width:90%;
+	margin-left:5%;
+}
+	
+#contactBar {
+  margin-top:60px;
+}
+
+#faqsH1  {
+	font-size:1em;
+}
+
+.panel-title {
+	font-size:1em;
+	}
+
+}
+/*End of Media Query Css 800px */
+
+
+
+/*Media Query Css 650px */
+@media (max-width: 650px) {
+	#IndexMainContainer {
+	margin-top:12%;
+	margin-bottom:20%;
+	}
+	
+	.IndexMainSectionParagraph {
+	font-size:1em;
+	}
+	
+	h1 {
+	font-size:1.5em;
+    }
+	
+	h2 {
+	font-size:1.2em;
+	}
+	
+	#AboutMainContainer {
+	margin-top:80px;
+	font-size:1.2em;
+	margin-bottom:120px;
+    }
+	
+	.AboutLeftSection {
+		background: rgba(255, 255, 240, 0.6);
+		margin-bottom:10px;
+		font-size:1em;
+		margin-left:5%;
+	}
+	
+	.AboutRightSection {
+	width:90%;
+	margin-left:5%;
+	margin-bottom:0px;
+	}
+
+	.carousel-inner > .item > img { 
+	width:100%; height:200px; 
+	}
+	
+	#ServicesMainContainer {
+	margin-top:80px;
+	margin-bottom:150px;
+	margin-left:5%;
+	width: 90%;
+	}
+	
+	.ServicesLeftSection {
+	width: 100%;
+	margin-top:0;
+	padding:10px;
+	font-size:1.1em;
+	}
+	.ServicesMiddleSection {
+	width: 100%;
+	margin-top:0;
+	padding:10px;
+	font-size:1.1em;
+	}
+	.ServicesRightSection {
+	width: 100%;
+	margin-top:0;
+	padding:10px;
+	font-size:1.1em;
+	}
+	.panel-default {
+	margin-top:15px;
+	}
+	
+	#SalesMainContainer {
+	font-size:1.1em;
+	margin-bottom:60px;
+	}
+
+	.SalesMainSection {
+	width:90%;
+	margin-left:5%;
+	}
+	
+	#ContactMainContainer {
+	margin-top:80px;
+	width:98%;
+	margin-left:1%;
+	}
+	
+	.ContactMainSection {
+	width:98%;
+	margin-left:1%;
+	}
+	
+	#contactBar {
+	width:98%;
+	margin-left:1%;
+	}
+	
+	#FaqsMainContainer {
+	font-size:1.1em;
+	margin-top:100px;
+	margin-bottom:140px;
+	}
+
+	.FaqsMainSection {
+	width:95%;
+	margin-left:2.5%;
+	}
+	
+	.panel-title {
+	font-size:1em;
+	}
+	
+	#infoMainContainer {
+	margin-bottom:80px;
+	}
+
+	.infoLeftSection {
+	margin-top:30px;
+	font-size:1em;
+	}
+
+	.infoRightSection {
+	font-size:1em;
+	margin-bottom:30px;
+	}
+}
+/*End Media Query Css 650px */
