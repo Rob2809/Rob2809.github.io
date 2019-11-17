@@ -600,6 +600,7 @@ footer {
 	margin-top:175px;
 	margin-bottom:40px;
 }
+
 .infoLeftSection {
 	margin-top:20px;
 	}
@@ -694,6 +695,9 @@ footer {
 	font-size:1em;
 }
 
+#infoMainContainer{
+	margin-top:200px;
+}
 }
 
 /*Media Query Css 650px */
