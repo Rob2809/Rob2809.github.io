@@ -680,13 +680,14 @@ footer {
 	font-size:0.9em;
 	}
 
+#FaqsMainContainer {
+	margin-top:250px;
+}
+
 #faqsH1  {
 	font-size:1em;
 }
 
-.panel-title {
-	font-size:1em;
-	}
 }
 
 /*Media Query Css 650px */
