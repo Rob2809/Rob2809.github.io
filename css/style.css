@@ -610,12 +610,13 @@ footer {
 	margin-top:120px;
     }
 .AboutLeftSection {
-	margin-left:5%;
+	margin-left:10%;
+	width:80%;
 	}
 
 .AboutRightSection {
-	margin-left:5%;
-	width:90%;
+	margin-left:10%;
+	width:80%;
 	}
 	
 	.carousel-inner > .item > img { 
