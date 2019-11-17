@@ -637,6 +637,7 @@ footer {
     }
 	
 .AboutLeftSection {
+	width:90%;
 	margin-left:5%;
 	font-size:1.1em;
 }
