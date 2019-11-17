@@ -624,6 +624,11 @@ footer {
 }
 /*End of Media Query Css 1200px */
 
+@media (max-width: 840px) {
+	#IndexMainContainer {
+	margin-bottom:40px;
+}
+}
 
 /*Media Query Css 800px */
 @media (max-width: 800px) {
