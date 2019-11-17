@@ -660,6 +660,14 @@ footer {
 	margin-left:5%;
 }
 
+#ContactMainContainer {
+	margin-top:120px;
+}
+
+#contactBar {
+  margin-top:60px;
+}
+
 .panel-default {
 	font-size:0.6em;
 }
@@ -667,10 +675,6 @@ footer {
 .panel-title {
 	font-size:0.9em;
 	}
-	
-#contactBar {
-  margin-top:60px;
-}
 
 #faqsH1  {
 	font-size:1em;
