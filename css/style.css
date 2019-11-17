@@ -625,13 +625,9 @@ footer {
 /*End of Media Query Css 1200px */
 
 @media (max-width: 840px) {
-	#IndexMainContainer {
+#IndexMainContainer {
 	margin-bottom:80px;
 }
-}
-
-/*Media Query Css 800px */
-@media (max-width: 800px) {
 
 #AboutMainContainer {
 	margin-top:100px;
@@ -659,11 +655,7 @@ footer {
 .panel-title {
 	font-size:1em;
 	}
-
 }
-/*End of Media Query Css 800px */
-
-
 
 /*Media Query Css 650px */
 @media (max-width: 650px) {
