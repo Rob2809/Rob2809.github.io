@@ -698,6 +698,10 @@ footer {
 #infoMainContainer{
 	margin-top:200px;
 }
+
+.ThankYouMainSection {
+	font-size:1.4em;
+}
 }
 
 /*Media Query Css 650px */
