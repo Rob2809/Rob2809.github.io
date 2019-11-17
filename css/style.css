@@ -628,6 +628,10 @@ footer {
 	.carousel-inner > .item > img { 
 	width:100%; height:280px; 
 	}
+	
+	.panel-title {
+	font-size:0.8em;
+	}
 }
 /*End of Media Query Css 1200px */
 
